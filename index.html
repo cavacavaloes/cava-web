@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.A.V.A. | Club de Aeromodelismo - Vila do Conde</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans selection:bg-sky-500 selection:text-white">
+
+    <!-- HEADER & IDIOMAS -->
+    <header class="sticky top-0 z-50 flex justify-between items-center px-6 py-4 bg-slate-950/90 backdrop-blur border-b border-slate-800">
+        <div class="text-xl font-extrabold tracking-wider text-sky-400 flex items-center gap-2">
+            <span>✈️ C.A.V.A.</span>
+        </div>
+        <nav class="flex gap-3 text-sm font-semibold">
+            <a href="#pt" class="px-2 py-1 rounded bg-slate-800 hover:bg-sky-500 hover:text-white transition">PT 🇵🇹</a>
+            <a href="#es" class="px-2 py-1 rounded hover:bg-slate-800 transition">ES 🇪🇸</a>
+            <a href="#en" class="px-2 py-1 rounded hover:bg-slate-800 transition">EN 🇬🇧</a>
+            <a href="#de" class="px-2 py-1 rounded hover:bg-slate-800 transition">DE 🇩🇪</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="px-6 py-24 text-center max-w-4xl mx-auto">
+        <span class="inline-block bg-sky-500/10 text-sky-400 border border-sky-500/20 text-xs font-bold px-3 py-1 rounded-full mb-6">Touguinhó · Vila do Conde, Portugal</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">El cielo es nuestro punto de encuentro.</h1>
+        <p class="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed">Desde los clásicos de gasolina y helicópteros hasta la velocidad extrema de los drones FPV. Si te apasiona volar, este es tu espacio.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#bautismo" class="bg-sky-500 hover:bg-sky-600 text-white font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-sky-500/20">Quiero probar un vuelo</a>
+            <a href="#contacto" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold px-7 py-3.5 rounded-xl transition border border-slate-700">Visítanos este fin de semana</a>
+        </div>
+    </section>
+
+    <!-- CLIMA Y WEBCAM EN DIRECTO -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+        <div class="bg-slate-950 p-6 md:p-8 rounded-2xl border border-slate-800 shadow-xl">
+            <h2 class="text-2xl font-bold mb-6 text-center text-sky-400">Estado del Campo en Directo</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-4">
+                    <h3 class="font-bold text-lg text-slate-200">Condiciones Meteorológicas</h3>
+                    <div class="flex justify-between items-center text-sm border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Viento actual:</span>
+                        <strong class="text-slate-100">12 km/h (Favorable)</strong>
+                    </div>
+                    <div class="flex justify-between items-center text-sm border-b border-slate-800 pb-2">
+                        <span class="text-slate-400">Temperatura:</span>
+                        <strong class="text-slate-100">21°C | Despejado</strong>
+                    </div>
+                    <p class="text-emerald-400 font-semibold text-sm pt-2 flex items-center gap-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span> Pista abierta y condiciones óptimas para volar.
+                    </p>
+                </div>
+                <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 text-center">
+                    <p class="text-xs font-medium text-slate-400 mb-3 uppercase tracking-wider">🎥 Webcam Pista C.A.V.A.</p>
+                    <div class="bg-slate-950 h-44 rounded-lg flex flex-col items-center justify-center text-slate-500 border border-slate-800/60">
+                        <span class="text-2xl mb-1">📡</span>
+                        <span class="text-sm">Transmisión en directo activa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DISCIPLINAS -->
+    <section class="max-w-6xl mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold text-center mb-4">Todas las formas de volar</h2>
+        <p class="text-slate-400 text-center max-w-xl mx-auto mb-10 text-sm">En C.A.V.A. hay sitio para cada tipo de piloto, uniendo la experiencia artesanal con la vanguardia digital.</p>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="text-3xl mb-4">⛽</div>
+                <h3 class="text-xl font-bold text-sky-400 mb-2">Gasolina & Nitro</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Potencia, aerodinámica y precisión clásica en amplios espacios de vuelo habilitados.</p>
+            </div>
+            <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition">
+                <div class="text-3xl mb-4">🚁</div>
+                <h3 class="text-xl font-bold text-sky-400 mb-2">Helicópteros 3D</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Maniobras acrobáticas y control milimétrico en el aire por pilotos expertos y en formación.</p>
+            </div>
+            <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-slate-700 transition relative">
+                <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-extrabold px-2 py-0.5 rounded shadow">¡Nuevo!</span>
+                <div class="text-3xl mb-4">⚡</div>
+                <h3 class="text-xl font-bold text-sky-400 mb-2">Drones FPV & Carreras</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Adrenalina pura, visión en primera persona y competición de alta velocidad para las nuevas generaciones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAUTISMO DE VUELO -->
+    <section id="bautismo" class="max-w-6xl mx-auto px-6 py-12">
+        <div class="bg-gradient-to-r from-sky-950/40 to-slate-950 p-8 md:p-12 rounded-2xl border border-sky-900/40">
+            <div class="max-w-2xl">
+                <h2 class="text-2xl md:text-3xl font-bold mb-4 text-sky-300">¿Quieres sentir los mandos por primera vez?</h2>
+                <p class="text-slate-300 mb-6 leading-relaxed">No necesitas tener equipo ni experiencia previa. Ven a nuestro campo de vuelo y prueba la experiencia con nuestro sistema de doble mando (instructor y alumno conectados). Descubre la sensación real de pilotar de forma 100% segura.</p>
+                <a href="#contacto" class="inline-block bg-sky-500 hover:bg-sky-600 text-white font-bold px-6 py-3 rounded-xl transition">Solicitar mi primera experiencia de vuelo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contacto" class="bg-slate-950 border-t border-slate-800 text-center py-10 text-sm text-slate-500 px-6">
+        <p class="mb-2 font-medium text-slate-400">C.A.V.A. Club de Aeromodelismo · Touguinhó, Vila do Conde</p>
+        <p>&copy; 2026. Un club abierto en Portugués, Español, Inglés y Alemán.</p>
+    </footer>
+
+</body>
+</html>
